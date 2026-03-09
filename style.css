@@ -87,6 +87,16 @@ body {
     text-decoration: none;
     color: var(--text-color);
     letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.brand-logo {
+    width: 40px;
+    height: auto;
+    mix-blend-mode: screen; /* Removes the black background, keeping the neon colors */
+    filter: drop-shadow(0 0 5px rgba(0, 112, 243, 0.5));
 }
 
 .logo .highlight {
